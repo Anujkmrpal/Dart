@@ -1,13 +1,14 @@
-void main(){
-var person=new Person();
-
-person.name='Anuj';
-person.printName();
-}
-
-class Person{
+class Person {
   String name;
-  printName(){
+  
+  printName() {
     print(name);
   }
+}
+
+void main(){
+  var person = new Person();
+
+  person.name = 'Anuj';
+  person.printName();
 }

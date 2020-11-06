@@ -1,19 +1,19 @@
-void main(){
-  var a='A';
-  switch(a){
-    case "A":{print('You are in A');};
+void main() {
+  var a = 'A';
+  switch(a) {
+    case "A": { print('You are in A'); }
     break;
-    case "B":{print('You are in B');};
+    case "B": { print('You are in B'); }
     break;
-    case "C":{print('You are in C');};
+    case "C": { print('You are in C'); }
     break;
-    default:{print('Invalid choice');};
+    default: { print('Invalid choice'); }
     break;
   }
 
-  if(a==2){
-    print("a is number");
+  if (a is int) {
+    print("a is a number");
   }else{
-    print("a is string");
+    print("a is a string");
   }
 }
